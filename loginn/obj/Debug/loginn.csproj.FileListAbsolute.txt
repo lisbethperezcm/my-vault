@@ -1,0 +1,19 @@
+C:\Users\Administrator\source\repos\loginn\bin\Debug\loginn.exe.config
+C:\Users\Administrator\source\repos\loginn\bin\Debug\loginn.exe
+C:\Users\Administrator\source\repos\loginn\bin\Debug\loginn.pdb
+C:\Users\Administrator\source\repos\loginn\obj\Debug\loginn.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\loginn\obj\Debug\loginn.Form1.resources
+C:\Users\Administrator\source\repos\loginn\obj\Debug\loginn.Properties.Resources.resources
+C:\Users\Administrator\source\repos\loginn\obj\Debug\loginn.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\loginn\obj\Debug\loginn.exe
+C:\Users\Administrator\source\repos\loginn\obj\Debug\loginn.pdb
+C:\Users\USER\Desktop\Proyecto Final\loginn\bin\Debug\loginn.exe.config
+C:\Users\USER\Desktop\Proyecto Final\loginn\bin\Debug\loginn.exe
+C:\Users\USER\Desktop\Proyecto Final\loginn\bin\Debug\loginn.pdb
+C:\Users\USER\Desktop\Proyecto Final\loginn\obj\Debug\loginn.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\Proyecto Final\loginn\obj\Debug\loginn.Form1.resources
+C:\Users\USER\Desktop\Proyecto Final\loginn\obj\Debug\loginn.Properties.Resources.resources
+C:\Users\USER\Desktop\Proyecto Final\loginn\obj\Debug\loginn.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\Proyecto Final\loginn\obj\Debug\loginn.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Proyecto Final\loginn\obj\Debug\loginn.exe
+C:\Users\USER\Desktop\Proyecto Final\loginn\obj\Debug\loginn.pdb
