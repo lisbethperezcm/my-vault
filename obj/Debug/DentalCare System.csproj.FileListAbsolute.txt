@@ -1,0 +1,30 @@
+C:\Users\USER\Desktop\Proyecto Final\DentalCare System\DentalCare System\bin\Debug\DentalCare System.exe.config
+C:\Users\USER\Desktop\Proyecto Final\DentalCare System\DentalCare System\bin\Debug\DentalCare System.exe
+C:\Users\USER\Desktop\Proyecto Final\DentalCare System\DentalCare System\bin\Debug\DentalCare System.pdb
+C:\Users\USER\Desktop\Proyecto Final\DentalCare System\DentalCare System\obj\Debug\DentalCare System.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\Proyecto Final\DentalCare System\DentalCare System\obj\Debug\DentalCare_System.Form1.resources
+C:\Users\USER\Desktop\Proyecto Final\DentalCare System\DentalCare System\obj\Debug\DentalCare_System.Properties.Resources.resources
+C:\Users\USER\Desktop\Proyecto Final\DentalCare System\DentalCare System\obj\Debug\DentalCare System.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\Proyecto Final\DentalCare System\DentalCare System\obj\Debug\DentalCare System.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Proyecto Final\DentalCare System\DentalCare System\obj\Debug\DentalCare System.exe
+C:\Users\USER\Desktop\Proyecto Final\DentalCare System\DentalCare System\obj\Debug\DentalCare System.pdb
+C:\Users\USER\Desktop\Proyecto Final\DentalCare System\DentalCare System\obj\Debug\DentalCare_System.Interfaz.Paciente.resources
+C:\Users\USER\Desktop\Proyecto Final\DentalCare System\DentalCare System\obj\Debug\DentalCare_System.Interfaz.Inicio.resources
+C:\Users\USER\Desktop\Proyecto Final\DentalCare System\DentalCare System\obj\Debug\DentalCare_System.Interfaz.Servicios.resources
+C:\Users\USER\Desktop\Proyecto Final\DentalCare System\DentalCare System\obj\Debug\DentalCare_System.Interfaz.Doctor.resources
+C:\Users\USER\Desktop\Proyecto Final\DentalCare System\DentalCare System\obj\Debug\DentalCare_System.Interfaz.Cuestionario.resources
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\bin\Debug\DentalCare System.exe.config
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\bin\Debug\DentalCare System.exe
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\bin\Debug\DentalCare System.pdb
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\obj\Debug\DentalCare System.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\obj\Debug\DentalCare_System.Form1.resources
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\obj\Debug\DentalCare_System.Interfaz.Cuestionario.resources
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\obj\Debug\DentalCare_System.Interfaz.Doctor.resources
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\obj\Debug\DentalCare_System.Interfaz.Inicio.resources
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\obj\Debug\DentalCare_System.Interfaz.Paciente.resources
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\obj\Debug\DentalCare_System.Interfaz.Servicios.resources
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\obj\Debug\DentalCare_System.Properties.Resources.resources
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\obj\Debug\DentalCare System.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\obj\Debug\DentalCare System.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\obj\Debug\DentalCare System.exe
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\obj\Debug\DentalCare System.pdb
