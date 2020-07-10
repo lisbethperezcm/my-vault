@@ -75,11 +75,13 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(3, 418);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(3, 464);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(250, 35);
+            this.button1.Size = new System.Drawing.Size(247, 35);
             this.button1.TabIndex = 70;
-            this.button1.Text = "Cuestioranio de Salud";
+            this.button1.Text = "Cuestioranio  Salud";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -90,11 +92,14 @@
             this.btnServicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnServicio.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnServicio.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnServicio.Location = new System.Drawing.Point(0, 377);
+            this.btnServicio.Image = ((System.Drawing.Image)(resources.GetObject("btnServicio.Image")));
+            this.btnServicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnServicio.Location = new System.Drawing.Point(0, 414);
             this.btnServicio.Name = "btnServicio";
             this.btnServicio.Size = new System.Drawing.Size(250, 35);
             this.btnServicio.TabIndex = 69;
-            this.btnServicio.Text = "Servicios";
+            this.btnServicio.Text = "Servicios Odontologicos";
+            this.btnServicio.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnServicio.UseVisualStyleBackColor = true;
             this.btnServicio.Click += new System.EventHandler(this.btnServicio_Click);
             // 
@@ -107,12 +112,13 @@
             this.btnConsulta.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnConsulta.Image = ((System.Drawing.Image)(resources.GetObject("btnConsulta.Image")));
             this.btnConsulta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnConsulta.Location = new System.Drawing.Point(0, 327);
+            this.btnConsulta.Location = new System.Drawing.Point(0, 364);
             this.btnConsulta.Name = "btnConsulta";
             this.btnConsulta.Size = new System.Drawing.Size(250, 35);
             this.btnConsulta.TabIndex = 66;
-            this.btnConsulta.Text = "Consulta";
+            this.btnConsulta.Text = "Registro de Consulta";
             this.btnConsulta.UseVisualStyleBackColor = true;
+            this.btnConsulta.Click += new System.EventHandler(this.btnConsulta_Click);
             // 
             // btnPaciente
             // 
@@ -123,11 +129,11 @@
             this.btnPaciente.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnPaciente.Image = ((System.Drawing.Image)(resources.GetObject("btnPaciente.Image")));
             this.btnPaciente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPaciente.Location = new System.Drawing.Point(0, 265);
+            this.btnPaciente.Location = new System.Drawing.Point(0, 302);
             this.btnPaciente.Name = "btnPaciente";
             this.btnPaciente.Size = new System.Drawing.Size(250, 35);
             this.btnPaciente.TabIndex = 64;
-            this.btnPaciente.Text = "Paciente";
+            this.btnPaciente.Text = "Registro de Paciente";
             this.btnPaciente.UseVisualStyleBackColor = true;
             this.btnPaciente.Click += new System.EventHandler(this.Paciente_Click);
             // 
@@ -150,11 +156,11 @@
             this.btnDoctor.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnDoctor.Image = ((System.Drawing.Image)(resources.GetObject("btnDoctor.Image")));
             this.btnDoctor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDoctor.Location = new System.Drawing.Point(0, 209);
+            this.btnDoctor.Location = new System.Drawing.Point(0, 246);
             this.btnDoctor.Name = "btnDoctor";
             this.btnDoctor.Size = new System.Drawing.Size(250, 35);
             this.btnDoctor.TabIndex = 63;
-            this.btnDoctor.Text = "Doctor";
+            this.btnDoctor.Text = "Registro de Doctor";
             this.btnDoctor.UseVisualStyleBackColor = true;
             this.btnDoctor.Click += new System.EventHandler(this.btnDoctor_Click);
             // 

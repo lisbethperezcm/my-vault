@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Paciente));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.button1 = new System.Windows.Forms.Button();
             this.TxtBuscar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -50,7 +50,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.CamposPaciente = new System.Windows.Forms.GroupBox();
-            this.Cerrar = new System.Windows.Forms.PictureBox();
             this.Eliminar = new System.Windows.Forms.Button();
             this.Guardar = new System.Windows.Forms.Button();
             this.Editar = new System.Windows.Forms.Button();
@@ -63,15 +62,14 @@
             this.TxtTelefono = new System.Windows.Forms.TextBox();
             this.TxtApellido = new System.Windows.Forms.TextBox();
             this.ListaPacientes = new System.Windows.Forms.DataGridView();
-            this.label9 = new System.Windows.Forms.Label();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Edad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Tel = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Direccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Correo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label9 = new System.Windows.Forms.Label();
             this.CamposPaciente.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ListaPacientes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -189,7 +187,6 @@
             // 
             // CamposPaciente
             // 
-            this.CamposPaciente.Controls.Add(this.Cerrar);
             this.CamposPaciente.Controls.Add(this.Eliminar);
             this.CamposPaciente.Controls.Add(this.Guardar);
             this.CamposPaciente.Controls.Add(this.Editar);
@@ -218,18 +215,6 @@
             this.CamposPaciente.Size = new System.Drawing.Size(843, 146);
             this.CamposPaciente.TabIndex = 0;
             this.CamposPaciente.TabStop = false;
-            // 
-            // Cerrar
-            // 
-            this.Cerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Cerrar.Image = ((System.Drawing.Image)(resources.GetObject("Cerrar.Image")));
-            this.Cerrar.Location = new System.Drawing.Point(818, 11);
-            this.Cerrar.Name = "Cerrar";
-            this.Cerrar.Size = new System.Drawing.Size(22, 17);
-            this.Cerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Cerrar.TabIndex = 15;
-            this.Cerrar.TabStop = false;
-            this.Cerrar.Click += new System.EventHandler(this.Cerrar_Click);
             // 
             // Eliminar
             // 
@@ -373,15 +358,15 @@
             this.ListaPacientes.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ListaPacientes.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             this.ListaPacientes.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.Silver;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle10.Padding = new System.Windows.Forms.Padding(3);
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ListaPacientes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(3);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ListaPacientes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.ListaPacientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ListaPacientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Nombre,
@@ -390,28 +375,76 @@
             this.Tel,
             this.Direccion,
             this.Correo});
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Century", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ListaPacientes.DefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ListaPacientes.DefaultCellStyle = dataGridViewCellStyle8;
             this.ListaPacientes.EnableHeadersVisualStyles = false;
             this.ListaPacientes.Location = new System.Drawing.Point(113, 213);
             this.ListaPacientes.Margin = new System.Windows.Forms.Padding(0);
             this.ListaPacientes.Name = "ListaPacientes";
-            dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ListaPacientes.RowHeadersDefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ListaPacientes.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.ListaPacientes.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.ListaPacientes.Size = new System.Drawing.Size(842, 344);
             this.ListaPacientes.TabIndex = 13;
+            // 
+            // Nombre
+            // 
+            dataGridViewCellStyle2.NullValue = "Bryan";
+            this.Nombre.DefaultCellStyle = dataGridViewCellStyle2;
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            this.Nombre.Width = 124;
+            // 
+            // Apellido
+            // 
+            dataGridViewCellStyle3.NullValue = "Marte";
+            this.Apellido.DefaultCellStyle = dataGridViewCellStyle3;
+            this.Apellido.HeaderText = "Apellido";
+            this.Apellido.Name = "Apellido";
+            this.Apellido.Width = 124;
+            // 
+            // Edad
+            // 
+            dataGridViewCellStyle4.NullValue = "26";
+            this.Edad.DefaultCellStyle = dataGridViewCellStyle4;
+            this.Edad.HeaderText = "Edad";
+            this.Edad.Name = "Edad";
+            this.Edad.Width = 125;
+            // 
+            // Tel
+            // 
+            dataGridViewCellStyle5.NullValue = "829-308-3035";
+            this.Tel.DefaultCellStyle = dataGridViewCellStyle5;
+            this.Tel.HeaderText = "Tel";
+            this.Tel.Name = "Tel";
+            this.Tel.Width = 125;
+            // 
+            // Direccion
+            // 
+            dataGridViewCellStyle6.NullValue = "Lo mina leña";
+            this.Direccion.DefaultCellStyle = dataGridViewCellStyle6;
+            this.Direccion.HeaderText = "Direccion";
+            this.Direccion.Name = "Direccion";
+            this.Direccion.Width = 124;
+            // 
+            // Correo
+            // 
+            this.Correo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            dataGridViewCellStyle7.NullValue = "It\'z_tHu_choKolaTHoso@hotmail.com";
+            this.Correo.DefaultCellStyle = dataGridViewCellStyle7;
+            this.Correo.HeaderText = "Correo";
+            this.Correo.Name = "Correo";
             // 
             // label9
             // 
@@ -423,54 +456,6 @@
             this.label9.Size = new System.Drawing.Size(147, 33);
             this.label9.TabIndex = 14;
             this.label9.Text = "Pacientes";
-            // 
-            // Nombre
-            // 
-            dataGridViewCellStyle11.NullValue = "Bryan";
-            this.Nombre.DefaultCellStyle = dataGridViewCellStyle11;
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            this.Nombre.Width = 124;
-            // 
-            // Apellido
-            // 
-            dataGridViewCellStyle12.NullValue = "Marte";
-            this.Apellido.DefaultCellStyle = dataGridViewCellStyle12;
-            this.Apellido.HeaderText = "Apellido";
-            this.Apellido.Name = "Apellido";
-            this.Apellido.Width = 124;
-            // 
-            // Edad
-            // 
-            dataGridViewCellStyle13.NullValue = "26";
-            this.Edad.DefaultCellStyle = dataGridViewCellStyle13;
-            this.Edad.HeaderText = "Edad";
-            this.Edad.Name = "Edad";
-            this.Edad.Width = 125;
-            // 
-            // Tel
-            // 
-            dataGridViewCellStyle14.NullValue = "829-308-3035";
-            this.Tel.DefaultCellStyle = dataGridViewCellStyle14;
-            this.Tel.HeaderText = "Tel";
-            this.Tel.Name = "Tel";
-            this.Tel.Width = 125;
-            // 
-            // Direccion
-            // 
-            dataGridViewCellStyle15.NullValue = "Lo mina leña";
-            this.Direccion.DefaultCellStyle = dataGridViewCellStyle15;
-            this.Direccion.HeaderText = "Direccion";
-            this.Direccion.Name = "Direccion";
-            this.Direccion.Width = 124;
-            // 
-            // Correo
-            // 
-            this.Correo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle16.NullValue = "It\'z_tHu_choKolaTHoso@hotmail.com";
-            this.Correo.DefaultCellStyle = dataGridViewCellStyle16;
-            this.Correo.HeaderText = "Correo";
-            this.Correo.Name = "Correo";
             // 
             // Paciente
             // 
@@ -489,7 +474,6 @@
             this.Text = "Paciente";
             this.CamposPaciente.ResumeLayout(false);
             this.CamposPaciente.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ListaPacientes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -523,7 +507,6 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox TxtTelefono;
         private System.Windows.Forms.TextBox TxtApellido;
-        private System.Windows.Forms.PictureBox Cerrar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Apellido;
         private System.Windows.Forms.DataGridViewTextBoxColumn Edad;

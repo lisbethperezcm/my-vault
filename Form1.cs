@@ -108,5 +108,10 @@ namespace DentalCare_System
         {
             AbrirFormEnPanel(new Cuestionario());
         }
+
+        private void btnConsulta_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Consultas());
+        }
     }
 }
