@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.MenuVertical = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnCitas = new System.Windows.Forms.Button();
             this.btnServicio = new System.Windows.Forms.Button();
             this.btnConsulta = new System.Windows.Forms.Button();
             this.btnPaciente = new System.Windows.Forms.Button();
@@ -56,7 +56,7 @@
             // MenuVertical
             // 
             this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.MenuVertical.Controls.Add(this.button1);
+            this.MenuVertical.Controls.Add(this.BtnCitas);
             this.MenuVertical.Controls.Add(this.btnServicio);
             this.MenuVertical.Controls.Add(this.btnConsulta);
             this.MenuVertical.Controls.Add(this.btnPaciente);
@@ -68,22 +68,22 @@
             this.MenuVertical.Size = new System.Drawing.Size(250, 611);
             this.MenuVertical.TabIndex = 0;
             // 
-            // button1
+            // BtnCitas
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(3, 464);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(247, 35);
-            this.button1.TabIndex = 70;
-            this.button1.Text = "Cuestioranio  Salud";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BtnCitas.FlatAppearance.BorderSize = 0;
+            this.BtnCitas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.BtnCitas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCitas.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCitas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BtnCitas.Image = ((System.Drawing.Image)(resources.GetObject("BtnCitas.Image")));
+            this.BtnCitas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCitas.Location = new System.Drawing.Point(3, 465);
+            this.BtnCitas.Name = "BtnCitas";
+            this.BtnCitas.Size = new System.Drawing.Size(250, 35);
+            this.BtnCitas.TabIndex = 71;
+            this.BtnCitas.Text = "Control de Citas";
+            this.BtnCitas.UseVisualStyleBackColor = true;
+            this.BtnCitas.Click += new System.EventHandler(this.BtnCitas_Click);
             // 
             // btnServicio
             // 
@@ -287,7 +287,7 @@
         private System.Windows.Forms.Button btnPaciente;
         private System.Windows.Forms.Button btnDoctor;
         private System.Windows.Forms.Button btnServicio;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnCitas;
     }
 }
 

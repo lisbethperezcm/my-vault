@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace DentalCare_System.Interfaz
 {
-    public partial class Cuestionario : Form
+    public partial class Agregar_citas : Form
     {
-        public Cuestionario()
+        public Agregar_citas()
         {
             InitializeComponent();
+        }
+
+        private void Agregar_citas_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

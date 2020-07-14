@@ -10,21 +10,28 @@ using System.Windows.Forms;
 
 namespace DentalCare_System.Interfaz
 {
-    public partial class Doctor : Form
+    public partial class Citas : Form
     {
-        public Doctor()
+        public Citas()
         {
             InitializeComponent();
         }
 
-        private void Doctor_Load(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void maskedTextBox2_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+       
+        private void tabPage2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Agregar_Click_1(object sender, EventArgs e)
+        {
+            Form Agregar_citas = new Agregar_citas();
+            Agregar_citas.Show();
         }
     }
 }

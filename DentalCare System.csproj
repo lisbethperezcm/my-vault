@@ -53,17 +53,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaz\Agregar_citas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Agregar_citas.Designer.cs">
+      <DependentUpon>Agregar_citas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\citas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\citas.Designer.cs">
+      <DependentUpon>citas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaz\Consultas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Interfaz\Consultas.Designer.cs">
       <DependentUpon>Consultas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Interfaz\Cuestionario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Interfaz\Cuestionario.Designer.cs">
-      <DependentUpon>Cuestionario.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfaz\Doctor.cs">
       <SubType>Form</SubType>
@@ -94,11 +100,14 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Agregar_citas.resx">
+      <DependentUpon>Agregar_citas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\citas.resx">
+      <DependentUpon>citas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interfaz\Consultas.resx">
       <DependentUpon>Consultas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Interfaz\Cuestionario.resx">
-      <DependentUpon>Cuestionario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaz\Doctor.resx">
       <DependentUpon>Doctor.cs</DependentUpon>

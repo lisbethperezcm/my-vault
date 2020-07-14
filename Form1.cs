@@ -104,14 +104,16 @@ namespace DentalCare_System
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            AbrirFormEnPanel(new Cuestionario());
-        }
+       
 
         private void btnConsulta_Click(object sender, EventArgs e)
         {
             AbrirFormEnPanel(new Consultas());
+        }
+
+        private void BtnCitas_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Citas());
         }
     }
 }

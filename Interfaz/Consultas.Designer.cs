@@ -28,34 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Consultas));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label9 = new System.Windows.Forms.Label();
             this.ListaPacientes = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.CamposPaciente = new System.Windows.Forms.GroupBox();
-            this.Guardar = new System.Windows.Forms.Button();
-            this.Editar = new System.Windows.Forms.Button();
-            this.Agregar = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.RgPaciente = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Observacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Doctor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BtnBuscar = new System.Windows.Forms.Button();
+            this.CamposPaciente = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.TxtObservacion = new System.Windows.Forms.RichTextBox();
+            this.TxtDoctor = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.TxtFecha = new System.Windows.Forms.DateTimePicker();
+            this.BtnAgregar = new System.Windows.Forms.Button();
+            this.BtnGuardar = new System.Windows.Forms.Button();
+            this.BtnEditar = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.TxtBuscar = new System.Windows.Forms.TextBox();
+            this.TxtPaciente = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.ListaPacientes)).BeginInit();
             this.CamposPaciente.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label9
@@ -63,7 +64,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.label9.Location = new System.Drawing.Point(101, 40);
+            this.label9.Location = new System.Drawing.Point(183, 32);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(305, 33);
             this.label9.TabIndex = 18;
@@ -74,144 +75,213 @@
             this.ListaPacientes.AllowUserToDeleteRows = false;
             this.ListaPacientes.AllowUserToResizeColumns = false;
             this.ListaPacientes.AllowUserToResizeRows = false;
-            this.ListaPacientes.BackgroundColor = System.Drawing.SystemColors.ControlLight;
+            this.ListaPacientes.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ListaPacientes.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ListaPacientes.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             this.ListaPacientes.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Silver;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(3);
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ListaPacientes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Century", 9.25F);
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle11.Padding = new System.Windows.Forms.Padding(3);
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ListaPacientes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.ListaPacientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ListaPacientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Fecha,
             this.Observacion,
             this.Doctor});
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ListaPacientes.DefaultCellStyle = dataGridViewCellStyle5;
             this.ListaPacientes.EnableHeadersVisualStyles = false;
-            this.ListaPacientes.Location = new System.Drawing.Point(100, 252);
+            this.ListaPacientes.Location = new System.Drawing.Point(16, 152);
             this.ListaPacientes.Margin = new System.Windows.Forms.Padding(0);
             this.ListaPacientes.Name = "ListaPacientes";
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ListaPacientes.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle15.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Century", 9.25F);
+            dataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ListaPacientes.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
             this.ListaPacientes.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.ListaPacientes.Size = new System.Drawing.Size(779, 293);
+            this.ListaPacientes.Size = new System.Drawing.Size(905, 310);
             this.ListaPacientes.TabIndex = 16;
             // 
-            // button1
+            // Fecha
             // 
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.SlateGray;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(750, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 63);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Buscar";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
+            dataGridViewCellStyle12.NullValue = "7/10/2020";
+            this.Fecha.DefaultCellStyle = dataGridViewCellStyle12;
+            this.Fecha.HeaderText = "Fecha";
+            this.Fecha.Name = "Fecha";
+            // 
+            // Observacion
+            // 
+            this.Observacion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            dataGridViewCellStyle13.NullValue = "EL paciente no se cepillo bien antes de venir al consultorio";
+            this.Observacion.DefaultCellStyle = dataGridViewCellStyle13;
+            this.Observacion.HeaderText = "Observacion";
+            this.Observacion.Name = "Observacion";
+            // 
+            // Doctor
+            // 
+            dataGridViewCellStyle14.NullValue = "Dra. La Wasacaca";
+            this.Doctor.DefaultCellStyle = dataGridViewCellStyle14;
+            this.Doctor.HeaderText = "Doctor/@";
+            this.Doctor.Name = "Doctor";
+            this.Doctor.Width = 125;
+            // 
+            // BtnBuscar
+            // 
+            this.BtnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.SlateGray;
+            this.BtnBuscar.FlatAppearance.BorderSize = 0;
+            this.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnBuscar.Font = new System.Drawing.Font("Century", 12.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.BtnBuscar.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.BtnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("BtnBuscar.Image")));
+            this.BtnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnBuscar.Location = new System.Drawing.Point(750, 12);
+            this.BtnBuscar.Name = "BtnBuscar";
+            this.BtnBuscar.Size = new System.Drawing.Size(129, 63);
+            this.BtnBuscar.TabIndex = 19;
+            this.BtnBuscar.Text = "Buscar";
+            this.BtnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnBuscar.UseVisualStyleBackColor = true;
             // 
             // CamposPaciente
             // 
+            this.CamposPaciente.Controls.Add(this.TxtPaciente);
             this.CamposPaciente.Controls.Add(this.label3);
-            this.CamposPaciente.Controls.Add(this.richTextBox1);
-            this.CamposPaciente.Controls.Add(this.comboBox1);
+            this.CamposPaciente.Controls.Add(this.TxtObservacion);
+            this.CamposPaciente.Controls.Add(this.TxtDoctor);
             this.CamposPaciente.Controls.Add(this.label2);
-            this.CamposPaciente.Controls.Add(this.dateTimePicker1);
-            this.CamposPaciente.Controls.Add(this.RgPaciente);
-            this.CamposPaciente.Controls.Add(this.Agregar);
-            this.CamposPaciente.Controls.Add(this.Guardar);
-            this.CamposPaciente.Controls.Add(this.Editar);
+            this.CamposPaciente.Controls.Add(this.TxtFecha);
+            this.CamposPaciente.Controls.Add(this.BtnAgregar);
+            this.CamposPaciente.Controls.Add(this.BtnGuardar);
+            this.CamposPaciente.Controls.Add(this.BtnEditar);
             this.CamposPaciente.Controls.Add(this.label5);
             this.CamposPaciente.Controls.Add(this.label1);
             this.CamposPaciente.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CamposPaciente.Location = new System.Drawing.Point(100, 73);
+            this.CamposPaciente.Location = new System.Drawing.Point(16, 0);
             this.CamposPaciente.Margin = new System.Windows.Forms.Padding(0);
             this.CamposPaciente.Name = "CamposPaciente";
             this.CamposPaciente.Padding = new System.Windows.Forms.Padding(0);
-            this.CamposPaciente.Size = new System.Drawing.Size(779, 179);
+            this.CamposPaciente.Size = new System.Drawing.Size(905, 152);
             this.CamposPaciente.TabIndex = 15;
             this.CamposPaciente.TabStop = false;
             // 
-            // Guardar
+            // label3
             // 
-            this.Guardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Guardar.FlatAppearance.BorderSize = 0;
-            this.Guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Guardar.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Guardar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.Guardar.Image = ((System.Drawing.Image)(resources.GetObject("Guardar.Image")));
-            this.Guardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Guardar.Location = new System.Drawing.Point(723, 83);
-            this.Guardar.Margin = new System.Windows.Forms.Padding(0);
-            this.Guardar.Name = "Guardar";
-            this.Guardar.Size = new System.Drawing.Size(43, 36);
-            this.Guardar.TabIndex = 5;
-            this.Guardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Guardar.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(13, 80);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(93, 16);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "Observaciones";
             // 
-            // Editar
+            // TxtObservacion
             // 
-            this.Editar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Editar.DialogResult = System.Windows.Forms.DialogResult.Abort;
-            this.Editar.FlatAppearance.BorderSize = 0;
-            this.Editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Editar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Editar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.Editar.Image = ((System.Drawing.Image)(resources.GetObject("Editar.Image")));
-            this.Editar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Editar.Location = new System.Drawing.Point(723, 127);
-            this.Editar.Margin = new System.Windows.Forms.Padding(0);
-            this.Editar.Name = "Editar";
-            this.Editar.Size = new System.Drawing.Size(42, 40);
-            this.Editar.TabIndex = 6;
-            this.Editar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Editar.UseVisualStyleBackColor = true;
+            this.TxtObservacion.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.TxtObservacion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtObservacion.Location = new System.Drawing.Point(114, 65);
+            this.TxtObservacion.Name = "TxtObservacion";
+            this.TxtObservacion.Size = new System.Drawing.Size(451, 72);
+            this.TxtObservacion.TabIndex = 3;
+            this.TxtObservacion.Text = "";
             // 
-            // Agregar
+            // TxtDoctor
             // 
-            this.Agregar.AccessibleDescription = "";
-            this.Agregar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Agregar.FlatAppearance.BorderSize = 0;
-            this.Agregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Agregar.Font = new System.Drawing.Font("Century", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Agregar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.Agregar.Image = ((System.Drawing.Image)(resources.GetObject("Agregar.Image")));
-            this.Agregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Agregar.Location = new System.Drawing.Point(580, 40);
-            this.Agregar.Margin = new System.Windows.Forms.Padding(0);
-            this.Agregar.Name = "Agregar";
-            this.Agregar.Size = new System.Drawing.Size(130, 39);
-            this.Agregar.TabIndex = 4;
-            this.Agregar.Text = "Agregar Consulta";
-            this.Agregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Agregar.UseVisualStyleBackColor = true;
+            this.TxtDoctor.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.TxtDoctor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TxtDoctor.FormattingEnabled = true;
+            this.TxtDoctor.Items.AddRange(new object[] {
+            "Doctor 1",
+            "Doctor2",
+            "Doctor 3",
+            "Doctor4",
+            "Doctor 5"});
+            this.TxtDoctor.Location = new System.Drawing.Point(371, 24);
+            this.TxtDoctor.Name = "TxtDoctor";
+            this.TxtDoctor.Size = new System.Drawing.Size(212, 24);
+            this.TxtDoctor.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(616, 28);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 16);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Fecha";
+            // 
+            // TxtFecha
+            // 
+            this.TxtFecha.Location = new System.Drawing.Point(662, 26);
+            this.TxtFecha.Name = "TxtFecha";
+            this.TxtFecha.Size = new System.Drawing.Size(212, 23);
+            this.TxtFecha.TabIndex = 15;
+            // 
+            // BtnAgregar
+            // 
+            this.BtnAgregar.AccessibleDescription = "";
+            this.BtnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnAgregar.FlatAppearance.BorderSize = 0;
+            this.BtnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAgregar.Font = new System.Drawing.Font("Century", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAgregar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.BtnAgregar.Image = ((System.Drawing.Image)(resources.GetObject("BtnAgregar.Image")));
+            this.BtnAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnAgregar.Location = new System.Drawing.Point(713, 101);
+            this.BtnAgregar.Margin = new System.Windows.Forms.Padding(0);
+            this.BtnAgregar.Name = "BtnAgregar";
+            this.BtnAgregar.Size = new System.Drawing.Size(130, 39);
+            this.BtnAgregar.TabIndex = 4;
+            this.BtnAgregar.Text = "Agregar Consulta";
+            this.BtnAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnAgregar.UseVisualStyleBackColor = true;
+            // 
+            // BtnGuardar
+            // 
+            this.BtnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnGuardar.FlatAppearance.BorderSize = 0;
+            this.BtnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnGuardar.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnGuardar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.BtnGuardar.Image = ((System.Drawing.Image)(resources.GetObject("BtnGuardar.Image")));
+            this.BtnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnGuardar.Location = new System.Drawing.Point(619, 101);
+            this.BtnGuardar.Margin = new System.Windows.Forms.Padding(0);
+            this.BtnGuardar.Name = "BtnGuardar";
+            this.BtnGuardar.Size = new System.Drawing.Size(43, 36);
+            this.BtnGuardar.TabIndex = 5;
+            this.BtnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnGuardar.UseVisualStyleBackColor = true;
+            // 
+            // BtnEditar
+            // 
+            this.BtnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnEditar.DialogResult = System.Windows.Forms.DialogResult.Abort;
+            this.BtnEditar.FlatAppearance.BorderSize = 0;
+            this.BtnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEditar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.BtnEditar.Image = ((System.Drawing.Image)(resources.GetObject("BtnEditar.Image")));
+            this.BtnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEditar.Location = new System.Drawing.Point(662, 97);
+            this.BtnEditar.Margin = new System.Windows.Forms.Padding(0);
+            this.BtnEditar.Name = "BtnEditar";
+            this.BtnEditar.Size = new System.Drawing.Size(42, 40);
+            this.BtnEditar.TabIndex = 6;
+            this.BtnEditar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnEditar.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(24, 112);
+            this.label5.Location = new System.Drawing.Point(317, 27);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(48, 16);
             this.label5.TabIndex = 13;
@@ -227,108 +297,52 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Paciente";
             // 
-            // RgPaciente
+            // groupBox1
             // 
-            this.RgPaciente.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.RgPaciente.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RgPaciente.Location = new System.Drawing.Point(85, 22);
-            this.RgPaciente.Name = "RgPaciente";
-            this.RgPaciente.Size = new System.Drawing.Size(212, 20);
-            this.RgPaciente.TabIndex = 1;
+            this.groupBox1.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.groupBox1.Controls.Add(this.ListaPacientes);
+            this.groupBox1.Controls.Add(this.CamposPaciente);
+            this.groupBox1.Font = new System.Drawing.Font("Century", 9.25F);
+            this.groupBox1.Location = new System.Drawing.Point(21, 76);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(939, 478);
+            this.groupBox1.TabIndex = 21;
+            this.groupBox1.TabStop = false;
             // 
-            // dateTimePicker1
+            // TxtBuscar
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(85, 58);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(212, 23);
-            this.dateTimePicker1.TabIndex = 15;
+            this.TxtBuscar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtBuscar.Font = new System.Drawing.Font("Century", 10.25F);
+            this.TxtBuscar.Location = new System.Drawing.Point(539, 32);
+            this.TxtBuscar.Name = "TxtBuscar";
+            this.TxtBuscar.Size = new System.Drawing.Size(205, 17);
+            this.TxtBuscar.TabIndex = 22;
             // 
-            // label2
+            // TxtPaciente
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 63);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "Fecha";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.TxtPaciente.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.TxtPaciente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TxtPaciente.FormattingEnabled = true;
+            this.TxtPaciente.Items.AddRange(new object[] {
             "Doctor 1",
             "Doctor2",
             "Doctor 3",
             "Doctor4",
             "Doctor 5"});
-            this.comboBox1.Location = new System.Drawing.Point(85, 109);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(212, 24);
-            this.comboBox1.TabIndex = 2;
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Location = new System.Drawing.Point(373, 83);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(337, 84);
-            this.richTextBox1.TabIndex = 3;
-            this.richTextBox1.Text = "";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(380, 63);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 16);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "Observaciones";
-            // 
-            // textBox1
-            // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(539, 53);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(205, 20);
-            this.textBox1.TabIndex = 20;
-            // 
-            // Fecha
-            // 
-            dataGridViewCellStyle2.NullValue = "7/10/2020";
-            this.Fecha.DefaultCellStyle = dataGridViewCellStyle2;
-            this.Fecha.HeaderText = "Fecha";
-            this.Fecha.Name = "Fecha";
-            // 
-            // Observacion
-            // 
-            this.Observacion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle3.NullValue = "EL paciente no se cepillo bien antes de venir al consultorio";
-            this.Observacion.DefaultCellStyle = dataGridViewCellStyle3;
-            this.Observacion.HeaderText = "Observacion";
-            this.Observacion.Name = "Observacion";
-            // 
-            // Doctor
-            // 
-            dataGridViewCellStyle4.NullValue = "Dra. La Wasacaca";
-            this.Doctor.DefaultCellStyle = dataGridViewCellStyle4;
-            this.Doctor.HeaderText = "Doctor/@";
-            this.Doctor.Name = "Doctor";
-            this.Doctor.Width = 125;
+            this.TxtPaciente.Location = new System.Drawing.Point(74, 25);
+            this.TxtPaciente.Name = "TxtPaciente";
+            this.TxtPaciente.Size = new System.Drawing.Size(212, 24);
+            this.TxtPaciente.TabIndex = 20;
             // 
             // Consultas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1034, 566);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TxtBuscar);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.ListaPacientes);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.CamposPaciente);
+            this.Controls.Add(this.BtnBuscar);
             this.Font = new System.Drawing.Font("Century", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Consultas";
@@ -336,6 +350,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.ListaPacientes)).EndInit();
             this.CamposPaciente.ResumeLayout(false);
             this.CamposPaciente.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -345,22 +360,23 @@
 
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.DataGridView ListaPacientes;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnBuscar;
         private System.Windows.Forms.GroupBox CamposPaciente;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox TxtDoctor;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox RgPaciente;
-        private System.Windows.Forms.Button Guardar;
-        private System.Windows.Forms.Button Editar;
+        private System.Windows.Forms.DateTimePicker TxtFecha;
+        private System.Windows.Forms.Button BtnGuardar;
+        private System.Windows.Forms.Button BtnEditar;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button Agregar;
+        private System.Windows.Forms.Button BtnAgregar;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.RichTextBox TxtObservacion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;
         private System.Windows.Forms.DataGridViewTextBoxColumn Observacion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Doctor;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox TxtBuscar;
+        private System.Windows.Forms.ComboBox TxtPaciente;
     }
 }
