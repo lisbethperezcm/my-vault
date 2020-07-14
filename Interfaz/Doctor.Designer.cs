@@ -30,15 +30,21 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Doctor));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Doctor));
             this.label9 = new System.Windows.Forms.Label();
             this.ListaPacientes = new System.Windows.Forms.DataGridView();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Edad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Tel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Direccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Correo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.CamposPaciente = new System.Windows.Forms.GroupBox();
             this.Cerrar = new System.Windows.Forms.PictureBox();
@@ -63,12 +69,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.TxtBuscar = new System.Windows.Forms.TextBox();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Edad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Tel = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Direccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Correo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.ListaPacientes)).BeginInit();
             this.CamposPaciente.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Cerrar)).BeginInit();
@@ -125,6 +125,54 @@
             this.ListaPacientes.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.ListaPacientes.Size = new System.Drawing.Size(842, 344);
             this.ListaPacientes.TabIndex = 16;
+            // 
+            // Nombre
+            // 
+            dataGridViewCellStyle2.NullValue = "Bryan";
+            this.Nombre.DefaultCellStyle = dataGridViewCellStyle2;
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            this.Nombre.Width = 124;
+            // 
+            // Apellido
+            // 
+            dataGridViewCellStyle3.NullValue = "Marte";
+            this.Apellido.DefaultCellStyle = dataGridViewCellStyle3;
+            this.Apellido.HeaderText = "Apellido";
+            this.Apellido.Name = "Apellido";
+            this.Apellido.Width = 124;
+            // 
+            // Edad
+            // 
+            dataGridViewCellStyle4.NullValue = "Maxilofacial";
+            this.Edad.DefaultCellStyle = dataGridViewCellStyle4;
+            this.Edad.HeaderText = "Especialidad";
+            this.Edad.Name = "Edad";
+            this.Edad.Width = 125;
+            // 
+            // Tel
+            // 
+            dataGridViewCellStyle5.NullValue = "829-308-3035";
+            this.Tel.DefaultCellStyle = dataGridViewCellStyle5;
+            this.Tel.HeaderText = "Tel";
+            this.Tel.Name = "Tel";
+            this.Tel.Width = 125;
+            // 
+            // Direccion
+            // 
+            dataGridViewCellStyle6.NullValue = "Lo mina leña";
+            this.Direccion.DefaultCellStyle = dataGridViewCellStyle6;
+            this.Direccion.HeaderText = "Direccion";
+            this.Direccion.Name = "Direccion";
+            this.Direccion.Width = 124;
+            // 
+            // Correo
+            // 
+            this.Correo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            dataGridViewCellStyle7.NullValue = "It\'z_tHu_choKolaTHoso@hotmail.com";
+            this.Correo.DefaultCellStyle = dataGridViewCellStyle7;
+            this.Correo.HeaderText = "Correo";
+            this.Correo.Name = "Correo";
             // 
             // button1
             // 
@@ -412,54 +460,6 @@
             this.TxtBuscar.Name = "TxtBuscar";
             this.TxtBuscar.Size = new System.Drawing.Size(154, 21);
             this.TxtBuscar.TabIndex = 17;
-            // 
-            // Nombre
-            // 
-            dataGridViewCellStyle2.NullValue = "Bryan";
-            this.Nombre.DefaultCellStyle = dataGridViewCellStyle2;
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            this.Nombre.Width = 124;
-            // 
-            // Apellido
-            // 
-            dataGridViewCellStyle3.NullValue = "Marte";
-            this.Apellido.DefaultCellStyle = dataGridViewCellStyle3;
-            this.Apellido.HeaderText = "Apellido";
-            this.Apellido.Name = "Apellido";
-            this.Apellido.Width = 124;
-            // 
-            // Edad
-            // 
-            dataGridViewCellStyle4.NullValue = "Maxilofacial";
-            this.Edad.DefaultCellStyle = dataGridViewCellStyle4;
-            this.Edad.HeaderText = "Especialidad";
-            this.Edad.Name = "Edad";
-            this.Edad.Width = 125;
-            // 
-            // Tel
-            // 
-            dataGridViewCellStyle5.NullValue = "829-308-3035";
-            this.Tel.DefaultCellStyle = dataGridViewCellStyle5;
-            this.Tel.HeaderText = "Tel";
-            this.Tel.Name = "Tel";
-            this.Tel.Width = 125;
-            // 
-            // Direccion
-            // 
-            dataGridViewCellStyle6.NullValue = "Lo mina leña";
-            this.Direccion.DefaultCellStyle = dataGridViewCellStyle6;
-            this.Direccion.HeaderText = "Direccion";
-            this.Direccion.Name = "Direccion";
-            this.Direccion.Width = 124;
-            // 
-            // Correo
-            // 
-            this.Correo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle7.NullValue = "It\'z_tHu_choKolaTHoso@hotmail.com";
-            this.Correo.DefaultCellStyle = dataGridViewCellStyle7;
-            this.Correo.HeaderText = "Correo";
-            this.Correo.Name = "Correo";
             // 
             // Doctor
             // 

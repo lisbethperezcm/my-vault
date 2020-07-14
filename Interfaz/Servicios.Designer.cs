@@ -28,99 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Servicios));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Servicios));
-            this.dgvServicios = new System.Windows.Forms.DataGridView();
-            this.Servicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.Editar = new System.Windows.Forms.Button();
             this.Agregar = new System.Windows.Forms.Button();
             this.Eliminar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvServicios)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dgvServicios = new System.Windows.Forms.DataGridView();
+            this.Servicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvServicios)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dgvServicios
-            // 
-            this.dgvServicios.AllowUserToDeleteRows = false;
-            this.dgvServicios.AllowUserToResizeColumns = false;
-            this.dgvServicios.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvServicios.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvServicios.BackgroundColor = System.Drawing.SystemColors.ControlLight;
-            this.dgvServicios.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Silver;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvServicios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvServicios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvServicios.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Servicio,
-            this.Precio});
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvServicios.DefaultCellStyle = dataGridViewCellStyle5;
-            this.dgvServicios.EnableHeadersVisualStyles = false;
-            this.dgvServicios.Location = new System.Drawing.Point(81, 126);
-            this.dgvServicios.Name = "dgvServicios";
-            this.dgvServicios.Size = new System.Drawing.Size(588, 363);
-            this.dgvServicios.TabIndex = 1;
-            // 
-            // Servicio
-            // 
-            dataGridViewCellStyle3.NullValue = "Activacion de Brackets";
-            this.Servicio.DefaultCellStyle = dataGridViewCellStyle3;
-            this.Servicio.HeaderText = "Servicios";
-            this.Servicio.Name = "Servicio";
-            this.Servicio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Servicio.Width = 450;
-            // 
-            // Precio
-            // 
-            this.Precio.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle4.NullValue = "1500";
-            this.Precio.DefaultCellStyle = dataGridViewCellStyle4;
-            this.Precio.HeaderText = "Precio";
-            this.Precio.Name = "Precio";
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.checkedListBox1);
             this.groupBox1.Controls.Add(this.Editar);
             this.groupBox1.Controls.Add(this.Agregar);
             this.groupBox1.Controls.Add(this.Eliminar);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.groupBox1.Location = new System.Drawing.Point(81, 38);
+            this.groupBox1.Location = new System.Drawing.Point(81, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(588, 82);
+            this.groupBox1.Size = new System.Drawing.Size(588, 173);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.label1.Location = new System.Drawing.Point(23, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(356, 34);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Servicios Odontologicos";
             // 
             // Editar
             // 
@@ -174,31 +113,108 @@
             this.Eliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Eliminar.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.label1.Location = new System.Drawing.Point(23, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(356, 34);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Servicios Odontologicos";
+            // 
+            // dgvServicios
+            // 
+            this.dgvServicios.AllowUserToDeleteRows = false;
+            this.dgvServicios.AllowUserToResizeColumns = false;
+            this.dgvServicios.AllowUserToResizeRows = false;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvServicios.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvServicios.BackgroundColor = System.Drawing.SystemColors.ControlLight;
+            this.dgvServicios.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvServicios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvServicios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvServicios.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Servicio,
+            this.Precio});
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvServicios.DefaultCellStyle = dataGridViewCellStyle5;
+            this.dgvServicios.EnableHeadersVisualStyles = false;
+            this.dgvServicios.Location = new System.Drawing.Point(81, 191);
+            this.dgvServicios.Name = "dgvServicios";
+            this.dgvServicios.Size = new System.Drawing.Size(588, 363);
+            this.dgvServicios.TabIndex = 15;
+            // 
+            // Servicio
+            // 
+            dataGridViewCellStyle3.NullValue = "Activacion de Brackets";
+            this.Servicio.DefaultCellStyle = dataGridViewCellStyle3;
+            this.Servicio.HeaderText = "Servicios";
+            this.Servicio.Name = "Servicio";
+            this.Servicio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Servicio.Width = 450;
+            // 
+            // Precio
+            // 
+            this.Precio.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            dataGridViewCellStyle4.NullValue = "1500";
+            this.Precio.DefaultCellStyle = dataGridViewCellStyle4;
+            this.Precio.HeaderText = "Precio";
+            this.Precio.Name = "Precio";
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "Activacion de Brackets",
+            "Limpieza",
+            "blaqueado",
+            "whatever"});
+            this.checkedListBox1.Location = new System.Drawing.Point(18, 91);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(152, 64);
+            this.checkedListBox1.TabIndex = 16;
+            // 
             // Servicios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1034, 566);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dgvServicios);
+            this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Servicios";
             this.Text = "Servicios";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvServicios)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvServicios)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.DataGridView dgvServicios;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Servicio;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button Editar;
         private System.Windows.Forms.Button Agregar;
         private System.Windows.Forms.Button Eliminar;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.DataGridView dgvServicios;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Servicio;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
     }
 }

@@ -16,5 +16,10 @@ namespace DentalCare_System.Interfaz
         {
             InitializeComponent();
         }
+
+        private void dgvServicios_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

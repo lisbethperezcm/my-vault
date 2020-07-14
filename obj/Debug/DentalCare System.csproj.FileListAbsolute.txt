@@ -29,3 +29,16 @@ C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare Sys
 C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\obj\Debug\DentalCare System.exe
 C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\obj\Debug\DentalCare System.pdb
 C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\obj\Debug\DentalCare_System.Interfaz.Consultas.resources
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\bin\Debug\MySql.Data.dll
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\bin\Debug\Google.Protobuf.dll
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\bin\Debug\Zstandard.Net.dll
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\bin\Debug\Renci.SshNet.dll
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\bin\Debug\System.Buffers.dll
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\bin\Debug\MySql.Data.xml
+C:\Users\USER\Desktop\DentalCare Clone\my-vault\DentalCare System\DentalCare System\obj\Debug\DentalCare System.csproj.CopyComplete
